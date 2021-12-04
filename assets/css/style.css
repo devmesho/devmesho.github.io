@@ -278,7 +278,16 @@ h6 {
     background-color: #211f7c;
 }
 
+@media (max-width: 991px)
+ {
+    #get_in_touch_btn{
+        margin-right: 40px;
+    }
 
+    .mobile-nav-toggle{
+        margin-top: 6px;
+    }
+ }
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
