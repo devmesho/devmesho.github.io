@@ -69,7 +69,6 @@ h6 {
     opacity: 1;
 }
 
-
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -287,6 +286,11 @@ h6 {
     .mobile-nav-toggle{
         margin-top: 6px;
     }
+
+    #experties-bar{
+        height: auto;
+    }
+    
  }
 /*--------------------------------------------------------------
 # Hero Section
@@ -510,7 +514,6 @@ section {
     width: 100%;
     position: relative;
     text-align: center;
-    background: #fff;
 }
 
 .facts .count-box i {
@@ -541,6 +544,10 @@ section {
     margin: 0;
     font-family: "Raleway", sans-serif;
     font-size: 14px;
+}
+
+.facts{
+    background-color: gold;
 }
 
 
@@ -706,7 +713,12 @@ section {
     position: relative;
     overflow: hidden;
     z-index: 1;
-    background: rgba(69, 80, 91, 0.8);
+    background: white;
+}
+
+.portfolio .portfolio-wrap img{
+    height: 250px;
+    align-items: center;
 }
 
 .portfolio .portfolio-wrap::before {
@@ -1266,7 +1278,7 @@ section {
     text-align: center;
     padding: 30px 0;
     padding-top: 90px;
-    background-color: #fafaf7;
+    background-color: #f6fae6;
 }
 
 #footer a {
