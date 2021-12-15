@@ -299,15 +299,15 @@ h6 {
 #hero {
     width: 100%;
     height: 75vh;
-    background: url("../img/sinav-bg.png") top right no-repeat;
+    background: url("../img/sinav-main-bg.jpg") top right no-repeat;
     background-size: cover;
     position: relative;
     margin-top:150px;
 }
 
 #hero img {
-    width: 480px;
-    height: 150px;
+    width: 100%;
+    height: 5000px;
 }
 
 @media (min-width: 992px) {
