@@ -38,17 +38,6 @@
  
     
   // Smooth scrolling using jQuery easing
-// jQuery for page scrolling feature - requires jQuery Easing plugin
-    
-    
-    // $('a.js-scroll-trigger').on('click', function(event) {
-    //     var $anchor = $(this);
-    //     $('html, body').stop().animate({
-    //         scrollTop: $($anchor.attr('href')).offset().top
-    //     }, 1500, 'ease');
-    //     event.preventDefault();
-    // });
-
     let backtotop = select('.scroll-to-top')
     if (backtotop) {
       const toggleBacktotop = () => {
