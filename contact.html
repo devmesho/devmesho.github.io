@@ -168,7 +168,7 @@
                     </div>
                     <!-- end message -->
                     <!-- Contacts Form -->
-                    <form class="contact_form" action="mail.php">
+                    <form id="contact_form" class="contact_form" action="javascript:sendEmail()" method="post">
                         <div class="row">
                             <!-- Input -->
                             <div class="col-sm-6 mb-6">
@@ -265,8 +265,8 @@
                 <div class="col-lg-4 col-sm-12">
                     <div class="footer-widget">
                         <!-- Brand -->
-                        <a class="" href="index.html">
-                            <img src="images/logo/logo-white.png" width="400" />
+                        <a href="index.html">
+                            <img src="images/logo/logo-white.png" width="320" />
                         </a>
                     </div>
                 </div>
@@ -387,6 +387,7 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwIQh7LGryQdDDi-A603lR8NqiF3R_ycA"></script>
 
     <script src="js/form/contact.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="js/theme.js"></script>
 
   </body>
