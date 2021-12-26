@@ -35,9 +35,16 @@
 
   });
 
+  $('.scroll-to-top').on('click', function(e){
+    $("html, body").animate({scrollTop: $("#top-header").offset().top}, 100);
+  });
 
+  $('.contact-tab').on('click', function(e){
+    $("html, body").animate({scrollTop: $("#contact").offset().top}, 1000);
+  });
 
   // Smooth scrolling using jQuery easing
+
   let backtotop = select('.scroll-to-top')
   if (backtotop) {
     const toggleBacktotop = () => {
@@ -50,7 +57,6 @@
     window.addEventListener('load', toggleBacktotop)
     onscroll(document, toggleBacktotop)
   }
-
 
   // Closes responsive menu when a scroll trigger link is clicked
   $('.js-scroll-trigger').on('click', function (event) {
