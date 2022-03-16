@@ -1316,6 +1316,11 @@ CONTACT PAGE
   position: relative;
 }
 
+.footer_media_link{
+  font-size: -webkit-xxx-large !important;
+  margin: 20px;
+}
+
 #footer .footer-brand {
   font-size: 30px;
 }
@@ -1331,7 +1336,7 @@ CONTACT PAGE
 }
 
 .footer-overlay {
-  background: #111;
+  background:lavender;
   opacity: .94;
 }
 
@@ -1351,7 +1356,6 @@ CONTACT PAGE
 .footer-links a {
   color: #888;
   line-height: 38px;
-  font-size: 14px;
   text-transform: capitalize;
 }
 
