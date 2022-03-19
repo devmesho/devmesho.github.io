@@ -202,8 +202,8 @@ img {
 }
 
 .btn-trans-white {
-  border: 1px solid #fff;
-  color: #fff;
+  border: 1px solid #000;
+  color: #000;
 }
 
 .btn-outline-dark:hover {
@@ -346,7 +346,8 @@ a:hover, a:focus {
  HOME-3
 ---------------------------*/
 .header-white {
-  background: rgb(10, 2, 2);
+  background: #fff;
+  color: #111 !important;
   box-shadow: 0 7px 22px rgba(0, 0, 0, 0.08);
   border-radius: 0px;
 }
@@ -379,6 +380,7 @@ a:hover, a:focus {
 .banner-content2 .display-4 {
   color: #fff;
   font-weight: 600;
+  font-family: cursive;
 }
 
 .banner-content2 p.lead {
@@ -520,6 +522,7 @@ PAGE BANNER
 .main-nav {
   margin-bottom: -45px;
   z-index: 999;
+  color: #fff;
 }
 
 .navbar-nav .nav-link {
@@ -528,10 +531,14 @@ PAGE BANNER
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: #fff;
+  color: #000;
   font-weight: 700;
   letter-spacing: .5px;
   text-transform: uppercase;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover{
+  color: black;
 }
 
 .rounded-radius {
@@ -725,7 +732,7 @@ PAGE BANNER
 
 #banner-4 {
   position: relative;
-  background: url("../images/banner/banner-2.jpg") no-repeat;
+  background: url("../images/projects/p-6.jpg") no-repeat;
   background-size: cover;
 }
 
@@ -834,6 +841,10 @@ h5.subtitle {
   background-size: cover;
 }
 
+#services-2 h1{
+  color:#fff;
+}
+
 #services-2:before {
   position: absolute;
   content: "";
@@ -841,7 +852,7 @@ h5.subtitle {
   top: 0px;
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(30deg, #f2f6f7 0%, #f4f7fa 100%);
+  background-image: linear-gradient(30deg, #153a8b 0%, #153a8b 100%);
 }
 
 .web-service-block {
@@ -851,21 +862,38 @@ h5.subtitle {
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.05);
   margin-bottom: 10px;
+  height: 400px;
+}
+
+.why-choose-block {
+  text-align: center;
+  padding: 35px 25px;
+  transition: all .5s ease-in-out;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  margin-bottom: 10px;
+  background: #f2f6f7;
+  border-color: transparent;
+  height: 200px;
 }
 
 .web-service-block i {
   font-size: 70px;
   margin-bottom: 30px;
   display: block;
-  color: #153a8b;
+  color: #fff;
+}
+
+.web-service-block h1 {
+  color: #fff;
 }
 
 .web-service-block h3 {
-  color: #153a8b;
+  color: #fff;
 }
 
 .web-service-block p {
-  color: #153a8b;
+  color: #fff;
   margin-top: 15px;
 }
 
@@ -915,7 +943,7 @@ h5.subtitle {
 }
 
 .overlay.feature-overlay {
-  background-image: linear-gradient(30deg, rgb(38 38 59 / 95%) 0%, rgb(94 92 178) 100%);
+  background-image: linear-gradient(30deg, #343a40 0%, #f8f9fa 100%);
   opacity: .9;
 }
 
