@@ -67,10 +67,10 @@
 
 function sendEmail() {
 
-  var username = "sinavtech@gmail.com";
-  var password = "oifjoxbyvkejhxws";
-  var mailTo = 'info@sinavtec.com';
-  var from = "sinavtech@gmail.com";
+  var username = "devmeshosol@gmail.com";
+  var password = "rfmoukquhwxkytnt";
+  var mailTo = 'info@devmesho.com';
+  var from = "devmeshosol@gmail.com";
 
   var name = $("#name").val();
   var email = $("#email").val();
