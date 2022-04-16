@@ -657,6 +657,10 @@ PAGE BANNER
   background-color: #153a8b;
 }
 
+.navbar-dark .navbar-toggler{
+  color: #000 !important;
+}
+
 /*----------------------
  BANNER STYLE
 -----------------------*/
@@ -1680,7 +1684,7 @@ CONTACT PAGE
   }
   .navbar-collapse.collapse.show {
     padding-bottom: 30px;
-    background: #153a8b;
+    background: #fafafc;
   }
   #map {
     margin-top: 40px;
@@ -1712,7 +1716,7 @@ CONTACT PAGE
   }
   .navbar-collapse.collapse.show {
     padding-bottom: 30px;
-    background: #153a8b;
+    background: #fafafc;
   }
   .top-info-block {
     text-align: center;
@@ -1935,7 +1939,7 @@ CONTACT PAGE
   }
   .navbar-collapse.collapse.show {
     padding-bottom: 30px;
-    background: #153a8b;
+    background: #fafafc;
   }
   .web-service-block {
     margin-bottom: 30px;
