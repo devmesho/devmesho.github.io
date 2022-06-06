@@ -543,12 +543,12 @@
                 workplace and promises delivered on time. We keep in mind all the key factors required to completely
                 digitalize our company in a way to make sure we’re one of the leading technology companies with the best
                 trained staff at a global level.</p>
-              <div class="social-links">
-                <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-                <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-                <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-              </div>
+                <div class="social-links">
+                  <a href="https://twitter.com/devmesho" class="twitter"><i class="bi bi-twitter"></i></a>
+                  <a href="https://www.facebook.com/devmesho/" class="facebook"><i class="bi bi-facebook"></i></a>
+                  <a href="https://www.instagram.com/devmesho0/" class="instagram"><i class="bi bi-instagram"></i></a>
+                  <a href="https://www.linkedin.com/company/devmesho" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                </div>
             </div>
           </div>
 
@@ -573,7 +573,7 @@
           </div>
 
           <div class="col-lg-5 col-md-12" data-aos="fade-up" data-aos-delay="300">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form id="contact_form" action="javascript:sendEmail()" method="post" class="contact_form">
               <div class="form-group">
                 <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
               </div>
@@ -581,17 +581,22 @@
                 <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
               </div>
               <div class="form-group">
+                <input class="form-control" id="phone" name="phone" placeholder="Your Phone No." required>
+              </div>
+              <div class="form-group">
                 <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
               </div>
               <div class="form-group">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                <textarea class="form-control" name="message" id="message" rows="5" placeholder="Message"
+                  required></textarea>
               </div>
               <div class="my-3">
                 <div class="loading">Loading</div>
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center"><button name="submit" type="submit">Send Message</button></div>
+              <p class="small pt-3">We'll get back to you in 1-2 business days.</p>
             </form>
           </div>
 
