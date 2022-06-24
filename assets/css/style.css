@@ -1474,7 +1474,56 @@ section {
   padding-bottom: 20px;
 }
 
+.footer{
+  background-color: #f8f8f8;
+}
+
+.footer .footer-about p {
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "Raleway", sans-serif;
+  color: #888;
+}
+
+.footer .social-links {
+  padding-bottom: 20px;
+}
+
+.footer .info {
+  color: #444444;
+}
+
+.footer .info i {
+  font-size: 32px;
+  color: #3498db;
+  float: left;
+  line-height: 1;
+}
+
+.footer .info p {
+  padding: 0 0 10px 42px;
+  line-height: 28px;
+  font-size: 14px;
+}
+
+
 .contact .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #fff;
+  color: #3498db;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+  border: 1px solid #3498db;
+}
+
+.footer .social-links a {
   font-size: 18px;
   display: inline-block;
   background: #fff;
@@ -1507,6 +1556,28 @@ section {
 }
 
 .contact .info p {
+  padding: 0 0 10px 42px;
+  line-height: 28px;
+  font-size: 14px;
+}
+
+.footer .social-links a:hover {
+  background: #3498db;
+  color: #fff;
+}
+
+.footer .info {
+  color: #444444;
+}
+
+.footer .info i {
+  font-size: 32px;
+  color: #3498db;
+  float: left;
+  line-height: 1;
+}
+
+.footer .info p {
   padding: 0 0 10px 42px;
   line-height: 28px;
   font-size: 14px;
@@ -1582,6 +1653,47 @@ section {
 
 .contact .contact_form button[type=submit]:hover {
   background: #2383c4;
+}
+
+.page-header{
+  margin-top: 50px;
+  align-items: center;
+  font-weight: 900;
+}
+
+.form-lg-control{
+  height: 45px;
+  border-color: #111;
+}
+
+.form-lg-textarea{
+  border-color: #111;
+}
+.form-lg-textarea:focus{
+  border-color: #111;
+  box-shadow: 0 0 0 0rem rgb(13 110 253 / 25%);
+  background-color:#f9f9f9;
+}
+
+.form-lg-control:focus{
+  border-color: #111;
+  box-shadow: 0 0 0 0rem rgb(13 110 253 / 25%);
+  background-color:#f9f9f9;
+}
+
+.form-lg-label{
+  font-weight: 550;
+  font-size: larger;
+}
+
+.form-check-input:checked {
+  background-color: black;
+  box-shadow: 0 0 0 0rem rgb(13 110 253 / 25%);
+}
+
+.form-check-input[type=checkbox] {
+  border-radius: 0;
+  color: #111;
 }
 
 @-webkit-keyframes animate-loading {
