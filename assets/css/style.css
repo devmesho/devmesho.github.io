@@ -471,6 +471,7 @@ h6 {
 @media (max-width: 768px) {
   #hero {
     margin-top: 20px;
+    text-align: center;
   }
 
   #hero h1 {
@@ -486,6 +487,29 @@ h6 {
 
   #hero .hero-img img {
     width: 70%;
+  }
+
+  #about{
+    text-align: center;
+  }
+
+  #features{
+    text-align: center;
+  }
+
+  #our_features{
+    text-align: center;
+  }
+
+  .features .icon-box-flex{
+    display: block !important;
+  }
+
+  .features .icon-box{
+    min-height: 260px;
+  }
+  .more-services .card-body{
+    min-height: fit-content;
   }
 }
 
@@ -752,6 +776,7 @@ section {
   transition: all 0.3s ease-in-out;
   border-radius: 8px;
   z-index: 1;
+  width: -webkit-fill-available;
 }
 
 .services .icon-box::before {
@@ -848,7 +873,7 @@ section {
   transition: 0.3s;
   transition: ease-in-out 0.4s;
   border-radius: 5px;
-  height: 300px;
+  min-height: 300px;
   text-align: center;
 }
 
@@ -906,7 +931,7 @@ section {
   /* align-items: center; */
   padding: 20px;
   transition: ease-in-out 0.3s;
-  height: 180px;
+  height: 200px;
   z-index: 0.9;
 }
 
@@ -932,6 +957,7 @@ section {
 .features .icon-box h3 a {
   color: #222222;
   transition: ease-in-out 0.3s;
+  font-size: large;
 }
 
 .features .icon-box h3 a:hover {
@@ -1547,11 +1573,12 @@ section {
   text-align: center;
   width: 37px;
   height: 37px;
-  border: 1px solid #3498db;
+  border: 1px solid black;
 }
 
 .contact .social-links a:hover {
   background: rgb(0 0 0 / 0%);
+
   color: #fff;
 }
 
@@ -1734,6 +1761,13 @@ section {
 @media (max-width: 992px) {
   .breadcrumbs {
     margin-top: 72px;
+  }
+  #our_features > div > div.row.aos-init.aos-animate > div:nth-child(4){
+    margin-top: 20px;
+  }
+
+  .more-services .card-body{
+    min-height: fit-content;
   }
 }
 
