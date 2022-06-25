@@ -1506,6 +1506,11 @@ section {
   font-size: 14px;
 }
 
+.footer a{
+  color: #111;
+  font-size: large;
+}
+
 
 .contact .social-links a {
   font-size: 18px;
@@ -1581,6 +1586,7 @@ section {
   padding: 0 0 10px 42px;
   line-height: 28px;
   font-size: 14px;
+  color: #111;
 }
 
 .contact .contact_form .error-message {
