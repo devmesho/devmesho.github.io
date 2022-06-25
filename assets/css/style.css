@@ -1493,9 +1493,16 @@ section {
   color: #444444;
 }
 
-.footer .info i {
+.footer .info .contact_info_icon {
+  font-size: 25px;
+  color: black;
+  float: left;
+  line-height: 1;
+}
+
+.footer .info .follow_us_icon {
   font-size: 32px;
-  color: #3498db;
+  color: #111;
   float: left;
   line-height: 1;
 }
@@ -1534,18 +1541,17 @@ section {
   background: #fff;
   color: #3498db;
   line-height: 1;
-  padding: 8px 0;
+  padding: 1px 2px 1px 1px;
   margin-right: 4px;
-  border-radius: 50%;
+  border-radius: 5%;
   text-align: center;
-  width: 36px;
-  height: 36px;
-  transition: 0.3s;
+  width: 37px;
+  height: 37px;
   border: 1px solid #3498db;
 }
 
 .contact .social-links a:hover {
-  background: #3498db;
+  background: rgb(0 0 0 / 0%);
   color: #fff;
 }
 
@@ -1567,19 +1573,12 @@ section {
 }
 
 .footer .social-links a:hover {
-  background: #3498db;
+  background: rgb(0 0 0 / 0%);
   color: #fff;
 }
 
 .footer .info {
   color: #444444;
-}
-
-.footer .info i {
-  font-size: 32px;
-  color: #3498db;
-  float: left;
-  line-height: 1;
 }
 
 .footer .info p {
