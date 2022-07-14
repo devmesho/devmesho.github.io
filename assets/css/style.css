@@ -543,7 +543,7 @@ h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 60px 20px 20px 20px;
   overflow: hidden;
 }
 
@@ -851,9 +851,9 @@ section {
 /*--------------------------------------------------------------
 # More Services
 --------------------------------------------------------------*/
-.more-services {
+/* .more-services {
   padding-top: 20px;
-}
+} */
 
 .more-services .card {
   border: 0;
